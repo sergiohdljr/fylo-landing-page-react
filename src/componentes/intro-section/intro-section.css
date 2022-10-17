@@ -1,11 +1,12 @@
 * {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
 
 .intro-section {
   width: 60%;
   height: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;

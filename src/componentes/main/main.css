@@ -1,6 +1,12 @@
 .main{
     width: 100%;
-    background-color: var(--Main-background); 
+    background-color: var(--Intro-and-email-background);
+    /* background-image: url('../../../public/imagens/bg-curvy-desktop.svg');  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
