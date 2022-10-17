@@ -1,8 +1,11 @@
+import IntroSection from "../intro-section/intro-section";
 import "./main.css";
 
 const Main = () =>{
     return(
-        <main className="main"></main>
+        <main className="main">
+            <IntroSection/>
+        </main>
     )
 }
 
