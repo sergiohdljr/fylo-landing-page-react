@@ -1,4 +1,20 @@
 @import-normalize;
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* Cores */
+:root{
+--Intro-and-email-background: hsl(217, 28%, 15%);
+--Main-background: hsl(218, 28%, 13%);
+--Footer-background: hsl(216, 53%, 9%);
+--Testimonials-background: hsl(219, 30%, 18%);
+
+--Cyan: hsl(176, 68%, 64%);
+--Blue: hsl(198, 60%, 50%);
+--Light-Red: hsl(0, 100%, 63%);
+
+--White: hsl(0, 0%, 100%)
+}
 
 *{
     margin: 0;
@@ -10,4 +26,8 @@
 li{
     font-style: none;
     text-decoration: none;
+}
+
+a{
+    text-decoration: none; 
 }
