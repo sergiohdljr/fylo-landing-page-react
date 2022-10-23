@@ -1,19 +1,25 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .intro-section {
-  width: 60%;
+  background-color: var(--Intro-and-email-background);
+  background-image: url("../../../public/imagens/bg-curvy-desktop.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%; 
   height: auto;
-  margin-top: 2rem;
+  padding-top: 2rem; 
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  z-index: 1;
 }
 
 .img-intro {
-  width: 90%;
+  width: 70%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -43,33 +49,35 @@ article {
   line-height: 2.3rem;
 }
 
-.span-intro{
-    margin: auto 0;
-    text-align: center;
-    color: var(--White);
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.6rem;
-    max-width:500px;
+.span-intro {
+  margin: auto 0;
+  text-align: center;
+  color: var(--White);
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  max-width: 500px;
 }
 
 @media (max-width: 992px) {
- .intro-section{
+  article{
     width: 80%;
- }   
+    align-self: center;
+  }
 }
 
 @media (max-width: 575px) {
- .titulo-intro{
-  max-width: 468px;
- }
 
- .intro-section{
-  width: 95%;
- }
- 
-.img-intro{
-  width: 100%;
-}
-  
+  .intro-section {
+  background-color: var(--Intro-and-email-background);
+  background-image: url("../../../public/imagens/bg-curvy-mobile.svg");
+  }
+    
+    article{
+      width: 95%;
+    }
+
+  .img-intro {
+    width: 100%;
+  }
 }

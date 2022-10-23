@@ -1,10 +1,16 @@
 .coments-section{
     width: 95%;
-    height: auto;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 811px){
+    .coments-section{
+        height: auto;
+    }
 }

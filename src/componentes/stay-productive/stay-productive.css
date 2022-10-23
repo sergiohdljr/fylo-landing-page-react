@@ -44,12 +44,14 @@
 }
 
 .how-works-link > a {
-  color: var(--White);
+  color: var(--Cyan);
+  border-bottom: var(--Cyan) 2px solid;
+  transition: 2ms ease-in-out;
 }
 
 .how-works-link > a:hover {
-  color: var(--Cyan);
-  border-bottom: var(--Cyan) 2px solid;
+    color: var(--White);
+    border-bottom: var(--White) 2px solid
 }
 
 @media (max-width: 992px) {
