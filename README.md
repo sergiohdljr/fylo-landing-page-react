@@ -40,4 +40,4 @@ conceitos básicos que venho aprendendo tais como:
 
 Aqui você pode encontrar o deploy do projeto no Vercel:
 
-- [Vercel](fylo-landing-page-react-eta.vercel.app)
+- [Vercel](https://fylo-landing-page-react-eta.vercel.app/)
