@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Frontend Mentor - Fylo dark theme landing page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
 
-## Available Scripts
+## Bem vindo! 👋
 
-In the project directory, you can run:
+[Frontend Mentor](https://www.frontendmentor.io) Aqui você pode fazer esse e outros desafios.
 
-### `npm start`
+## O desafio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O desafio é construir essa landing page e chegar o mais próximo possível do design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Os usuários devem conseguir :
 
-### `npm test`
+- Acessar a página em independente do tamanho do seu dispositivo.
+- visualizar um hover para cada elemento interativo na página.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tecnológias usadas : 
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Construindo o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Nesse projeto eu decidi usar a Blibioteca React.js(que comecei a estudar recentemente) para por em prática alguns
+conceitos básicos que venho aprendendo tais como:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. CRA - create-react-app é um boilerplate básico para a contrução de um projeto em react que disponibiliza todas as dependencias necessárias.
 
-### `npm run eject`
+2. JSX - Que é basicamente escrever HTML no arquivo javascript, porém com diversas outras vantagens.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Componentes - Componentes são pequenas partes que juntas formam um site, por exemplo: botões, textos,
+   footer, header, imagens etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Props - São como paramêntros das funções que servem para os componentes poderem ser reutilizados ao longo da página.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deploy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Aqui você pode encontrar o deploy do projeto no Vercel:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Vercel](https://vercel.com/)
